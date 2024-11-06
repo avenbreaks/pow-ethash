@@ -1,0 +1,4 @@
+admin.nodeInfo.enode
+eth.getBlockByNumber("latest")
+var mining_threads = 1
+miner.start()

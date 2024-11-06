@@ -1,0 +1,93 @@
+INFO [11-05|20:41:46.776] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-05|20:41:46.778] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [11-05|20:41:46.784] Set global gas cap                       cap=50,000,000
+INFO [11-05|20:41:46.788] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [11-05|20:41:46.788] Using leveldb as the backing database 
+INFO [11-05|20:41:46.788] Allocated cache and file handles         database=/root/pow/miner-1/geth/chaindata cache=512.00MiB handles=524,288
+INFO [11-05|20:41:46.800] Using LevelDB as the backing database 
+INFO [11-05|20:41:46.802] Opened ancient database                  database=/root/pow/miner-1/geth/chaindata/ancient/chain readonly=false
+INFO [11-05|20:41:46.802] Disk storage enabled for ethash caches   dir=/root/pow/miner-1/cache count=3
+INFO [11-05|20:41:46.802] Disk storage enabled for ethash DAGs     dir=/root/pow/miner-1/mining-dag count=2
+INFO [11-05|20:41:46.803] Initialising Ethereum protocol           network=293,221 dbversion=8
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-05|20:41:46.804] Chain ID:  293221 (unknown) 
+INFO [11-05|20:41:46.804] Consensus: Ethash (proof-of-work) 
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] Pre-Merge hard forks (block based): 
+INFO [11-05|20:41:46.804]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [11-05|20:41:46.804]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [11-05|20:41:46.804]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-05|20:41:46.804]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [11-05|20:41:46.804]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [11-05|20:41:46.804]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [11-05|20:41:46.804]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [11-05|20:41:46.804]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [11-05|20:41:46.804]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [11-05|20:41:46.804]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] The Merge is not yet available for this network! 
+INFO [11-05|20:41:46.804]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] Post-Merge hard forks (timestamp based): 
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [11-05|20:41:46.804]  
+INFO [11-05|20:41:46.804] Loaded most recent local block           number=404 hash=50f978..346b7d td=57,571,949 age=6m17s
+INFO [11-05|20:41:46.805] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-05|20:41:46.805] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-05|20:41:46.805] Unprotected transactions allowed 
+INFO [11-05|20:41:46.805] Gasprice oracle is ignoring threshold set threshold=2
+WARN [11-05|20:41:46.805] Unclean shutdown detected                booted=2024-11-05T20:40:44-0600 age=1m2s
+WARN [11-05|20:41:46.805] Engine API enabled                       protocol=eth
+WARN [11-05|20:41:46.805] Engine API started but chain not configured for merge yet 
+INFO [11-05|20:41:46.806] Starting peer-to-peer node               instance=Geth/v1.11.6-stable/linux-amd64/go1.20.5
+INFO [11-05|20:41:46.824] New local node record                    seq=1,730,858,358,680 id=2cf830ba62b51e58 ip=127.0.0.1 udp=30305 tcp=30305
+INFO [11-05|20:41:46.824] Started P2P networking                   self=enode://dbdf3542df15b12aadf744220a066f52d7201afdbce1c8017dd3dec3150a9de478a6fdbf78f6469d483d387d15b64018fdaf59a9c179d7392bdb94021e732f04@127.0.0.1:30305
+INFO [11-05|20:41:46.826] IPC endpoint opened                      url=/root/pow/miner-1/geth.ipc
+INFO [11-05|20:41:46.826] Loaded JWT secret file                   path=/root/pow/jwtsecret crc32=0x6449ffd8
+INFO [11-05|20:41:46.826] WebSocket enabled                        url=ws://[::]:8551
+INFO [11-05|20:41:46.826] HTTP server started                      endpoint=[::]:8551 auth=true prefix= cors=localhost vhosts=*
+INFO [11-05|20:41:46.826] Transaction pool price threshold updated price=0
+INFO [11-05|20:41:46.826] Updated mining threads                   threads=1
+INFO [11-05|20:41:46.827] Transaction pool price threshold updated price=1,000,000,000
+INFO [11-05|20:41:46.827] Commit new sealing work                  number=405 sealhash=7ed3d7..8007e1 uncles=0 txs=0 gas=0 fees=0 elapsed="264.201µs"
+INFO [11-05|20:41:46.828] Commit new sealing work                  number=405 sealhash=7ed3d7..8007e1 uncles=0 txs=0 gas=0 fees=0 elapsed="712.254µs"
+INFO [11-05|20:41:50.043] New local node record                    seq=1,730,858,358,681 id=2cf830ba62b51e58 ip=207.244.227.117 udp=30305 tcp=30305
+INFO [11-05|20:41:56.937] Looking for peers                        peercount=1 tried=73 static=0
+INFO [11-05|20:42:07.029] Looking for peers                        peercount=0 tried=46 static=0
+INFO [11-05|20:42:17.038] Looking for peers                        peercount=0 tried=49 static=0
+INFO [11-05|20:42:27.126] Looking for peers                        peercount=0 tried=46 static=0
+INFO [11-05|20:42:37.275] Looking for peers                        peercount=0 tried=57 static=0
+INFO [11-05|20:42:45.815] Updated mining threads                   threads=4
+INFO [11-05|20:42:45.815] Transaction pool price threshold updated price=1,000,000,000
+INFO [11-05|20:42:45.816] Commit new sealing work                  number=405 sealhash=7ba86e..3bd70e uncles=0 txs=0 gas=0 fees=0 elapsed="972.639µs"
+INFO [11-05|20:42:45.817] Commit new sealing work                  number=405 sealhash=7ba86e..3bd70e uncles=0 txs=0 gas=0 fees=0 elapsed=1.421ms
+INFO [11-05|20:42:47.387] Looking for peers                        peercount=0 tried=32 static=0
+INFO [11-05|20:42:48.085] Successfully sealed new block            number=405 sealhash=7ba86e..3bd70e hash=4af03b..a832cc elapsed=2.268s
+INFO [11-05|20:42:48.085] "🔨 mined potential block"                number=405 hash=4af03b..a832cc
+INFO [11-05|20:42:48.085] Commit new sealing work                  number=406 sealhash=fecf36..e6d61d uncles=0 txs=0 gas=0 fees=0 elapsed="367.584µs"
+INFO [11-05|20:42:48.086] Commit new sealing work                  number=406 sealhash=fecf36..e6d61d uncles=0 txs=0 gas=0 fees=0 elapsed="658.644µs"
+INFO [11-05|20:42:48.271] Successfully sealed new block            number=406 sealhash=fecf36..e6d61d hash=6494cd..e301d2 elapsed=185.306ms
+INFO [11-05|20:42:48.271] "🔨 mined potential block"                number=406 hash=6494cd..e301d2
+INFO [11-05|20:42:48.271] Commit new sealing work                  number=407 sealhash=04c631..3dea5c uncles=0 txs=0 gas=0 fees=0 elapsed="254.774µs"
+INFO [11-05|20:42:48.271] Commit new sealing work                  number=407 sealhash=04c631..3dea5c uncles=0 txs=0 gas=0 fees=0 elapsed="597.281µs"
+INFO [11-05|20:42:57.669] Looking for peers                        peercount=0 tried=37 static=0
+INFO [11-05|20:43:07.735] Looking for peers                        peercount=0 tried=51 static=0
+INFO [11-05|20:43:17.995] Looking for peers                        peercount=0 tried=30 static=0
+INFO [11-05|20:43:28.035] Looking for peers                        peercount=0 tried=33 static=0
+INFO [11-05|20:43:38.036] Looking for peers                        peercount=1 tried=93 static=0
+INFO [11-05|20:43:48.039] Looking for peers                        peercount=0 tried=27 static=0
+INFO [11-05|20:43:50.846] HTTP server stopped                      endpoint=[::]:8551
+INFO [11-05|20:43:50.847] IPC endpoint closed                      url=/root/pow/miner-1/geth.ipc
+INFO [11-05|20:43:50.847] Ethereum protocol stopped 
+INFO [11-05|20:43:50.847] Transaction pool stopped 
+INFO [11-05|20:43:50.847] Writing cached state to disk             block=406 hash=6494cd..e301d2 root=7eaef2..891102
+INFO [11-05|20:43:50.848] Persisted trie from memory database      nodes=2 size=273.00B time="298.404µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=3 livesize=273.00B
+INFO [11-05|20:43:50.848] Writing cached state to disk             block=405 hash=4af03b..a832cc root=30ccb7..d0fdf4
+INFO [11-05|20:43:50.848] Persisted trie from memory database      nodes=2 size=273.00B time="125.683µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-05|20:43:50.849] Writing cached state to disk             block=279 hash=b3971a..99d3f8 root=d17116..b1a13b
+INFO [11-05|20:43:50.849] Persisted trie from memory database      nodes=0 size=0.00B   time="3.015µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-05|20:43:50.849] Writing clean trie cache to disk         path=/root/pow/miner-1/geth/triecache threads=4
+INFO [11-05|20:43:50.853] Persisted the clean trie cache           path=/root/pow/miner-1/geth/triecache elapsed=4.262ms
+INFO [11-05|20:43:50.853] Blockchain stopped 
